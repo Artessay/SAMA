@@ -46,13 +46,13 @@ def load_dataset(dataset_name):
     elif dataset_name == 'Clin':
         dataset_path = 'data/CMB-Clin.json'
     elif dataset_name == '2WikiMultihopQA':
-        dataset_path = '/data1/Yangzb/data/2wikimultihopqa/data_ids_april7/dev.json'
+        dataset_path = 'data/2WikiMultihopQA.json'
     elif dataset_name == 'HotpotQA':
-        dataset_path = '/data1/Yangzb/data/hotpotqa/hotpotqa-dev.json'
+        dataset_path = 'data/hotpotqa-dev.json'
     elif dataset_name == 'StrategyQA':
-        dataset_path = '/data1/Yangzb/data/strategyqa/strategyqa_train.json'
+        dataset_path = 'data/strategyqa_test.json'
     elif dataset_name == 'IIRC':
-        dataset_path = '/data1/Yangzb/data/iirc/dev.json'
+        dataset_path = 'data/iirc-dev.json'
     else:
         raise ValueError('Invalid dataset name')
     

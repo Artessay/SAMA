@@ -3,14 +3,14 @@ if __name__ == "__main__":
     sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from model import Base
-from microservice import DocumentSearch
+from microservice import WikiSearcher
 
 
 class BasicRAG(Base):
     def __init__(self, args):
         super().__init__(args)
 
-        self.retriever = DocumentSearch()
+        self.retriever = WikiSearcher()
 
     def retrieve(self, query):
         return self.retriever(query)

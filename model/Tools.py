@@ -3,6 +3,8 @@ from langchain_community.utilities import BingSearchAPIWrapper
 import os, re
 from typing import Dict, List
 
+from microservice import WikiSearcher
+
 """
 工具函数
 
@@ -15,9 +17,17 @@ from typing import Dict, List
 rag_host = 'localhost'
 rag_port = 63863
 
+wiki_host = "123.57.228.132"
+wiki_port = 8288
+
 class Tools:
     def __init__(self) -> None:
         self.toolConfig = self._tools()
+
+        self.wiki_searcher = WikiSearcher(
+            hostname=wiki_host,
+            port=wiki_port,
+        )
 
     def _tools(self):
         tools = [
@@ -47,23 +57,10 @@ class Tools:
             #         }
             #     ],
             # },
-            {
-                'name_for_human': '医学文档知识检索模块',
-                'name_for_model': 'DOC_RAG',
-                'description_for_model': '使用这个工具可以得到医学文档知识，请结合检索的到的部分知识来辅助你回答。',
-                'parameters': [
-                    {
-                        'name': 'input',
-                        'description': '用户询问的字符串形式的问句',
-                        'required': True,
-                        'schema': {'type': 'string'},
-                    }
-                ],
-            },
             # {
-            #     'name_for_human': '维基百科知识检索模块',
-            #     'name_for_model': 'WIKI_RAG',
-            #     'description_for_model': '使用这个工具可以得到维基百科知识，请结合检索的到的部分知识来辅助你回答。',
+            #     'name_for_human': '医学文档知识检索模块',
+            #     'name_for_model': 'DOC_RAG',
+            #     'description_for_model': '使用这个工具可以得到医学文档知识，请结合检索的到的部分知识来辅助你回答。',
             #     'parameters': [
             #         {
             #             'name': 'input',
@@ -74,9 +71,9 @@ class Tools:
             #     ],
             # },
             {
-                'name_for_human': '医学知识图谱路径探查模块',
-                'name_for_model': 'KG_RAG',
-                'description_for_model': '使用这个工具可以查询两个医学实体之间的关系，请结合检索的到的部分知识来辅助你回答。',
+                'name_for_human': '维基百科知识检索模块',
+                'name_for_model': 'WIKI_RAG',
+                'description_for_model': '使用这个工具可以得到维基百科知识，请结合检索的到的部分知识来辅助你回答。',
                 'parameters': [
                     {
                         'name': 'input',
@@ -86,6 +83,19 @@ class Tools:
                     }
                 ],
             },
+            # {
+            #     'name_for_human': '医学知识图谱路径探查模块',
+            #     'name_for_model': 'KG_RAG',
+            #     'description_for_model': '使用这个工具可以查询两个医学实体之间的关系，请结合检索的到的部分知识来辅助你回答。',
+            #     'parameters': [
+            #         {
+            #             'name': 'input',
+            #             'description': '用户询问的字符串形式的问句',
+            #             'required': True,
+            #             'schema': {'type': 'string'},
+            #         }
+            #     ],
+            # },
             # {
             #     'name_for_human': '医学百科知识检索模块',
             #     'name_for_model': 'Baike_RAG',
@@ -160,9 +170,9 @@ class Tools:
         RAG_result = str(send_data(input=input, function_call_type='DOC'))
         return RAG_result if RAG_result else "无法检索到医学知识，请规范用户输入"
 
-    # def WIKI_RAG(self, input: str) -> str:
-    #     RAG_result = str(send_data(input=input, function_call_type='WIKI'))
-    #     return RAG_result if RAG_result else "无法检索到医学知识，请规范用户输入"
+    def WIKI_RAG(self, input: str) -> str:
+        RAG_result = self.wiki_searcher(query=input)
+        return RAG_result if RAG_result else "无法检索到医学知识，请规范用户输入"
 
     def KG_RAG(self, input: str) -> str:
         RAG_result = str(send_data(input=input, function_call_type='KG'))
