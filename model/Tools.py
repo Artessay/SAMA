@@ -60,6 +60,19 @@ class Tools:
                     }
                 ],
             },
+            # {
+            #     'name_for_human': '维基百科知识检索模块',
+            #     'name_for_model': 'WIKI_RAG',
+            #     'description_for_model': '使用这个工具可以得到维基百科知识，请结合检索的到的部分知识来辅助你回答。',
+            #     'parameters': [
+            #         {
+            #             'name': 'input',
+            #             'description': '用户询问的字符串形式的问句',
+            #             'required': True,
+            #             'schema': {'type': 'string'},
+            #         }
+            #     ],
+            # },
             {
                 'name_for_human': '医学知识图谱路径探查模块',
                 'name_for_model': 'KG_RAG',
@@ -146,6 +159,10 @@ class Tools:
     def DOC_RAG(self, input: str) -> str:
         RAG_result = str(send_data(input=input, function_call_type='DOC'))
         return RAG_result if RAG_result else "无法检索到医学知识，请规范用户输入"
+
+    # def WIKI_RAG(self, input: str) -> str:
+    #     RAG_result = str(send_data(input=input, function_call_type='WIKI'))
+    #     return RAG_result if RAG_result else "无法检索到医学知识，请规范用户输入"
 
     def KG_RAG(self, input: str) -> str:
         RAG_result = str(send_data(input=input, function_call_type='KG'))

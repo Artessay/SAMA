@@ -1,0 +1,123 @@
+[
+    {
+        "_id": "8813f87c0bdd11eba7f7acde48001122",
+        "type": "compositional",
+        "question": "Who is the mother of the director of film Polish-Russian War (Film)?",
+        "context": "1. ['Xawery Żuławski', ['Xawery Żuławski (born 22 December 1971 in Warsaw) is a Polish film director.', 'In 1995 he graduated National Film School in Łódź.', 'He is the son of actress Małgorzata Braunek and director Andrzej Żuławski.', 'His second feature \"Wojna polsko-ruska\" (2009), adapted from the controversial best-selling novel by Dorota Masłowska, won First Prize in the New Polish Films competition at the 9th Era New Horizons Film Festival in Wrocław.', 'In 2013, he stated he intends to direct a Polish novel \"Zły\" by Leopold Tyrmand.', 'Żuławski and his wife Maria Strzelecka had 2 children together:', 'son Kaj Żuławski (born 2002) and daughter Jagna Żuławska (born 2009).']]\n2. ['Snow White and the Seven Dwarfs (1955 film)', ['Snow White and the Seven Dwarfs( USA:\" Snow White\") is a 1955 German film, directed by Erich Kobler, based on the story of Schneewittchen by the Brothers Grimm.']]\n3. ['Maheen Khan', ['Maheen Khan is a Pakistani fashion and costume designer, also an award winner fashion designer for fashion labels like\" The Embroidery HouseMaheen\" and\" Gulabo\".', 'She has done many national and international fashion events and shows.', 'She undertook embroidery for the film Snow White and the Huntsman and television series', 'The Jewel in the Crown.']]\n4. ['A Snow White Christmas', ['A Snow White Christmas is a Christmas animated television special produced by Filmation and telecast December 19, 1980, on CBS.', 'It is a sequel to the fairy tale\" Snow White\", unrelated to Filmation\\'s other sequel to\" Snow White\" titled\" Happily Ever After\"( 1990).', \"The film's plot revolves around the return of the Wicked Queen, who is unexpectedly brought back to life during Christmas and casts an evil spell that freezes the entire land.\", 'Only the young Snow White, the daughter of the original Snow White, manages to escape and take refuge with the seven giants with her dwarf friend.', 'It is now up to the giants to defeat the Queen forever and save the kingdom.']]\n5. ['Alice Washburn', ['Alice Washburn( 1860- 1929) was an American stage and film actress.', 'She worked at the Edison, Vitagraph and Kalem studios.', 'Her final film Snow White was her only known feature film.', 'She died of heart attack in November 1929.']]\n6. ['Polish-Russian War (film)', ['Polish-Russian War', '(Wojna polsko-ruska) is a 2009 Polish film directed by Xawery Żuławski based on the novel Polish-Russian War under the white-red flag by Dorota Masłowska.']]\n7. ['Viktor Yeliseyev', ['Viktor Petrovich Yeliseyev( born June 9, 1950) is a Russian general, orchestra conductor and music teacher.', 'He is the director of the Ministry of the Interior Ensemble, one of the two Russian Red Army Choirs.']]\n8. ['Minamoto no Chikako', ['She was the mother of Prince Morinaga.']]\n9. ['Liberty Ross', ['Liberty Lettice Lark Ross( born 23 September 1978) is an English model and actress.', 'She has appeared in publications such as\" VogueHarper\\'s Bazaari- D\", and\" Dazed& Confused\".', 'She played the role of Queen Eleanor in the 2012 fantasy film\" Snow White and the Huntsman\", directed by her then- husband, Rupert Sanders.', 'She is the sister of composers Atticus and Leopold Ross.']]\n10. ['Snow White and the Three Stooges', ['Snow White and the Three Stooges is the second feature film to star the Three Stooges after their 1959 resurgence in popularity.', 'By this time, the trio consisted of Moe Howard, Larry Fine, and Joe DeRita( dubbed\" Curly Joe\").', 'Released by 20th Century Fox, this was the trio\\'s take on the classic fairy tale\" Snow White and the Seven Dwarfs\".', 'The film was retitled Snow White and the Three Clowns in Great Britain.', 'This was Walter Lang ‘s final directing film before his retirement.', 'Olympic gold medalist figure skater Carol Heiss starred as Snow White, who must flee her home after The Evil Queen, her evil stepmother, wishes her to be dead.', 'Seeking refuge in the cottage of the seven dwarfs, she accidentally meets the Stooges, who are house sitting for them while they are away.']]",
+        "entity_ids": "Q3569599_Q3570840",
+        "supporting_facts": [
+            [
+                "Polish-Russian War (film)",
+                1
+            ],
+            [
+                "Xawery Żuławski",
+                2
+            ]
+        ],
+        "evidences": [
+            [
+                "Polish-Russian War",
+                "director",
+                "Xawery Żuławski"
+            ],
+            [
+                "Xawery Żuławski",
+                "mother",
+                "Małgorzata Braunek"
+            ]
+        ],
+        "answer": "Małgorzata Braunek",
+        "evidences_id": [
+            [
+                "Q3569599",
+                "director",
+                "Q3570840"
+            ],
+            [
+                "Q3570840",
+                "mother",
+                "Q274277"
+            ]
+        ],
+        "answer_id": "Q274277",
+        "result": "Final Answer:对于电影《波兰-俄罗斯战争》导演的母亲的具体信息，当前未能从可用资源中获得。建议通过其他途径如电影资料库或直接联系电影制作方来获取准确信息。"
+    },
+    {
+        "_id": "61a46987092f11ebbdaeac1f6bf848b6",
+        "type": "comparison",
+        "question": "Which film came out first, Blind Shaft or The Mask Of Fu Manchu?",
+        "context": "1. ['The Return of Dr. Fu Manchu', ['The Return of Dr. Fu Manchu is a 1930 American pre-Code film directed by Rowland V. Lee.', 'It is the second of three films starring Warner Oland as the fiendish Fu Manchu, who returns from apparent death in the previous film,\" The Mysterious Dr. Fu Manchu\"( 1929), to seek revenge on those he holds responsible for the death of his wife and child.']]\n2. ['The Blood of Fu Manchu', ['The Blood of Fu Manchu, also known as Fu Manchu and the Kiss of Death, Kiss of Death, Kiss and Kill( U.S. title) and Against All Odds( original U.S. video title), is a 1968 British adventure crime film directed by Jesús Franco, based on the fictional Asian villain Dr. Fu Manchu created by Sax Rohmer.', 'It was the fourth film in a series, and was preceded by\" The Vengeance of Fu Manchu The Castle of Fu Manchu\" followed in 1969.', 'It was produced by Harry Alan Towers for Udastex Films.', 'It starred Christopher Lee as Dr. Fu Manchu, Richard Greene as Scotland Yard detective Nayland Smith, and Howard Marion- Crawford as Dr. Petrie.', 'The movie was filmed in Spain and Brazil.', 'Shirley Eaton appears in a scene that she claimed she was never paid for; apparently, the director Jesús Franco had inserted some stock footage of her from one of her films(\" The Girl from Rio\"( 1968)) into the film without telling her.', 'She only found out years later that she had been in a Fu Manchu film.']]\n3. ['The Mask of the Gorilla', ['The Mask of the Gorilla is a 1958 French action film directed by Bernard Borderie.']]\n4. ['The Mask of Fu Manchu', ['The Mask of Fu Manchu is a 1932 pre-Code adventure film directed by Charles Brabin.', 'It was written by Irene Kuhn, Edgar Allan Woolf and John Willard based on the 1932 novel of the same name by Sax Rohmer.', \"Starring Boris Karloff as Fu Manchu, and featuring Myrna Loy as his depraved daughter, the movie revolves around Fu Manchu's quest for the golden sword and mask of Genghis Khan.\", 'Lewis Stone plays his nemesis.', 'Dr. Petrie is absent from this film.']]\n5. ['The Face of Fu Manchu', ['The Face of Fu Manchu is a 1965 thriller film directed by Don Sharp and based on the characters created by Sax Rohmer.', 'It stars Christopher Lee as the eponymous villain, a Chinese criminal mastermind, and Nigel Green as his pursuing rival Nayland Smith, a Scotland Yard detective.', 'The film was a British- West German co-production, and was the first in a five- part series starring Lee and produced by Harry Alan Towers for Constantin Film, the second of which was\" The Brides of Fu Manchu\" released the next year, with the final entry being\" The Castle of Fu Manchu\" in 1969.', 'It was shot in Technicolor and Techniscope, on- location in County Dublin, Ireland.']]\n6. ['The Brides of Fu Manchu', ['The Brides of Fu Manchu is a 1966 British/ West German Constantin Film co-production adventure crime film based on the fictional Chinese villain Dr. Fu Manchu, created by Sax Rohmer.', 'It was the second film in a series, and was preceded by\" The Face of Fu ManchuThe Vengeance of Fu Manchu\" followed in 1967,\" The Blood of Fu Manchu\" in 1968, and\" The Castle of Fu Manchu\" in 1969.', 'It was produced by Harry Alan Towers for Hallam Productions.', 'Like the first film, it was directed by Don Sharp, and starred Christopher Lee as Fu Manchu.', 'Nigel Green was replaced by Douglas Wilmer as Scotland Yard detective Nayland Smith.', 'The action takes place mainly in London, where much of the location filming took place.']]\n7. ['The Castle of Fu Manchu', ['The Castle of Fu Manchu( also known as The Torture Chamber of Dr. Fu Manchu and also known by its German title Die Folterkammer des Dr. Fu Man Chu) is a 1969 film and the fifth and final Dr. Fu Manchu film with Christopher Lee portraying the title character.']]\n8. ['The Mysterious Dr. Fu Manchu', ['The Mysterious Dr. Fu Manchu is a 1929 American pre-Code drama film directed by Rowland V. Lee and starring Warner Oland as Dr. Fu Manchu.', 'It was the first Fu Manchu film of the talkie era.', 'Since this was during the transition period to sound, a silent version was also released in the United States.']]\n9. ['Les Trottoirs de Bangkok', ['Les Trottoirs de Bangkok( English:\" The Sidewalks of Bangkok\", also known as\" Bangkok Interdit\") is a 1984 erotic thriller film directed by Jean Rollin.', 'The film was inspired by the 1932 Boris Karloff classic\" The Mask of Fu Manchu\".', 'In contrast to Rollin\\'s usual themes of vampires, dream- like atmosphere and crumbling châteaus,\" Les Trottoirs des Bangkok\" mixes themes of adventure, crime and mystery with comic book dialogue, while still featuring naked women and sex, which his films were known for.']]\n10. ['Blind Shaft', ['Blind Shaft is a 2003 film about a pair of brutal con artists operating in the illegal coal mines of present- day northern China.', 'The film was written and directed by Li Yang( 李杨), and is based on Chinese writer Liu Qingbang\\'s short novel\" Shen MuSacred Wood\").']]",
+        "entity_ids": "Q851284_Q1214768",
+        "supporting_facts": [
+            [
+                "Blind Shaft",
+                0
+            ],
+            [
+                "The Mask of Fu Manchu",
+                0
+            ]
+        ],
+        "evidences": [
+            [
+                "Blind Shaft",
+                "publication date",
+                "2003"
+            ],
+            [
+                "The Mask of Fu Manchu",
+                "publication date",
+                "1932"
+            ]
+        ],
+        "answer": "The Mask Of Fu Manchu",
+        "evidences_id": [],
+        "answer_id": "Q1214768",
+        "result": "Final Answer:电影《The Mask of Fu Manchu》比《Blind Shaft》早。《The Mask of Fu Manchu》于1967年上映，而《Blind Shaft》则于1980年上映。"
+    },
+    {
+        "_id": "e2a3bf2a0bdd11eba7f7acde48001122",
+        "type": "compositional",
+        "question": "When did John V, Prince Of Anhalt-Zerbst's father die?",
+        "context": "1. ['Karl I, Prince of Anhalt-Zerbst', ['Karl I of Anhalt- Zerbst( 17 November 1534 in Dessau – 4 May 1561 in Zerbst), was a German prince of the House of Ascania and ruler of the principality of Anhalt- Zerbst.', 'He was the eldest son of John V, Prince of Anhalt- Zerbst, by his wife Margaret, daughter of Joachim I Nestor, Elector of Brandenburg.']]\n2. ['Bernhard VII, Prince of Anhalt-Zerbst', ['Bernhard VII of Anhalt- Zerbst( 17 March 1540 – 1 March 1570), was a German prince of the House of Ascania and ruler of the principality of Anhalt- Zerbst.', 'He was born and died in Dessau, and was the third and youngest son of John V, Prince of Anhalt- Zerbst by his wife Margaret, daughter of Joachim I Nestor, Elector of Brandenburg.']]\n3. ['Ernest I, Prince of Anhalt-Dessau', ['Ernest I, Prince of Anhalt-Dessau (died Dessau, 12 June 1516), was a German prince of the House of Ascania and ruler of the principality of Anhalt-Dessau.', 'He was the second son of George I, Prince of Anhalt-Dessau, yet the first born by his fourth wife Anna, daughter of Albert VIII, Count of Lindow-Ruppin.']]\n4. ['Waldemar I, Prince of Anhalt-Zerbst', ['Waldemar I, Prince of Anhalt- Zerbst( died 7 January 1368) was a German prince of the House of Ascania and ruler of the principality of Anhalt- Zerbst.', 'He was the youngest son of Albert I, Prince of Anhalt- Zerbst, by his second wife Agnes, daughter of Conrad, Margrave of Brandenburg- Stendal.']]\n5. ['Albert III, Prince of Anhalt-Zerbst', ['Albert III, Prince of Anhalt- Zerbst( died ca. 1 August 1359) was a German prince of the House of Ascania and ruler of the principality of Anhalt- Zerbst.', 'He was the eldest son of Albert II, Prince of Anhalt- Zerbst, by his second wife Beatrix, daughter of Rudolf I, Elector of Saxony and Duke of Saxe- Wittemberg.']]\n6. ['Albert II, Prince of Anhalt-Zerbst', ['Albert II, Prince of Anhalt- Zerbst( died 17 July 1362) was a German prince of the House of Ascania and ruler of the principality of Anhalt- Zerbst.', 'He was the third son of Albert I, Prince of Anhalt- Zerbst, but the eldest child born to his second wife Agnes, daughter of Conrad, Margrave of Brandenburg- Stendal.']]\n7. ['Waldemar III, Prince of Anhalt-Zerbst', ['Waldemar III, Prince of Anhalt- Zerbst( died 1391) was a German prince of the House of Ascania and ruler of the principality of Anhalt- Zerbst.', 'He was the youngest son of John II, Prince of Anhalt- Zerbst, by his wife Elisabeth, daughter of John I, Count of Henneberg- Schleusingen.']]\n8. ['John VI, Prince of Anhalt-Zerbst', ['John VI of Anhalt-Zerbst (Zerbst, 24 March 1621 – Zerbst, 4 July 1667), was a German prince of the House of Ascania and ruler of the principality of Anhalt-Zerbst.', 'He was the only son of Rudolph, Prince of Anhalt-Zerbst, by his second wife Magdalene, daughter of John VII, Count of Oldenburg.']]\n9. ['John II, Prince of Anhalt-Zerbst', ['John II, Prince of Anhalt- Zerbst( died 11 April 1382) was a German prince of the House of Ascania and ruler of the principality of Anhalt- Zerbst.', 'He was the youngest son of Albert II, Prince of Anhalt- Zerbst, by his second wife Beatrix, daughter of Rudolf I, Elector of Saxony and Duke of Saxe- Wittemberg.']]\n10. ['John V, Prince of Anhalt-Zerbst', ['John V of Anhalt-Zerbst (Dessau, 4 September 1504 – Zerbst, 4 February 1551), was a German prince of the House of Ascania and ruler of the principality of Anhalt-Dessau.', 'From 1544, he assumed rule of the re-created principality of Anhalt-Zerbst.', 'John was the second (but eldest surviving) son of Ernest I, Prince of Anhalt-Dessau, by his wife Margarete, daughter of Henry I, Duke of Münsterberg-Oels, and granddaughter of George of Poděbrady, King of Bohemia.']]",
+        "entity_ids": "Q89423_Q78137",
+        "supporting_facts": [
+            [
+                "John V, Prince of Anhalt-Zerbst",
+                2
+            ],
+            [
+                "Ernest I, Prince of Anhalt-Dessau",
+                0
+            ]
+        ],
+        "evidences": [
+            [
+                "John V of Anhalt-Zerbst",
+                "father",
+                "Ernest I, Prince of Anhalt-Dessau"
+            ],
+            [
+                "Ernest I, Prince of Anhalt-Dessau",
+                "date of death",
+                "12 June 1516"
+            ]
+        ],
+        "answer": "12 June 1516",
+        "evidences_id": [
+            [
+                "Q89423",
+                "father",
+                "Q78137"
+            ],
+            [
+                "Q78137",
+                "date of death",
+                "date_information"
+            ]
+        ],
+        "answer_id": null,
+        "result": "Thought:约翰五世·安哈尔特-策尔布斯的父亲于1682年去世。"
+    }
+]

@@ -25,7 +25,7 @@ def run(args):
         if id + 1 < checkpoint:
             continue
 
-        data = get_query(item)
+        data = get_query(item,args.dataset_name)
         
         print("{}/{}".format(id+1, len(data_list)))
 

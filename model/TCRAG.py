@@ -159,6 +159,8 @@ class TCRAG(Base):
             return '\nObservation:' + self.tool.MedicalNER(**plugin_args)
         elif plugin_name == 'DOC_RAG':
             return '\nObservation:' + self.tool.DOC_RAG(**plugin_args)
+        # elif plugin_name == 'WIKI_RAG':
+        #     return '\nObservation:' + self.tool.WIKI_RAG(**plugin_args)
         elif plugin_name == 'KG_RAG':
             return '\nObservation:' + self.tool.KG_RAG(**plugin_args)
         elif plugin_name == 'Baike_RAG':

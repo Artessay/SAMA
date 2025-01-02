@@ -16,9 +16,9 @@ def seed_everything(seed: int):
 
 def get_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('-s', '--module_name', type=str, default='Base')
+    parser.add_argument('-s', '--module_name', type=str, default='TCRAG')
     parser.add_argument('-m', '--model_name', type=str, default='Qwen', choices=['Qwen', 'Xiaobei', 'Qwen2', 'Aliyun'])
-    parser.add_argument('-d', '--dataset_name', type=str, default='CMB', choices=['CMB', 'MMCU', 'Clin'])
+    parser.add_argument('-d', '--dataset_name', type=str, default='HotpotQA', choices=['CMB', 'MMCU', 'Clin','2WikiMultihopQA','HotpotQA', 'StrategyQA','IIRC'])#StrategyQA
     parser.add_argument('-c', '--checkpoint', type=int, default=0)
     parser.add_argument('--seed', type=int, default=42)
     

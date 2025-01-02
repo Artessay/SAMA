@@ -1,0 +1,190 @@
+[
+    {
+        "qid": "b8677742616fef051f00",
+        "term": "Genghis Khan",
+        "description": "founder and first Great Khan of the Mongol Empire",
+        "question": "Are more people today related to Genghis Khan than Julius Caesar?",
+        "answer": true,
+        "facts": "1. Julius Caesar had three children.\n2. Genghis Khan had sixteen children.\n3. Modern geneticists have determined that  out of every 200 men today has DNA that can be traced to Genghis Khan.",
+        "decomposition": [
+            "How many kids did Julius Caesar have?",
+            "How many kids did Genghis Khan have?",
+            "Is #2 greater than #1?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Caesarion-2",
+                        "Julia (daughter of Caesar)-1"
+                    ]
+                ],
+                [
+                    [
+                        "Alakhai Bekhi-1",
+                        "Tolui-1"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Julius Caesar-75"
+                    ]
+                ],
+                [
+                    [
+                        "Genghis Khan-17"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Gaius Julius Caesar-7"
+                    ]
+                ],
+                [
+                    [
+                        "Genghis Khan-15"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    "no_evidence",
+                    "operation"
+                ]
+            ]
+        ],
+        "result": "Final Answer:true",
+        "extract_result": "true"
+    },
+    {
+        "qid": "4668264df84fb7c25b39",
+        "term": "The Police",
+        "description": "English rock band",
+        "question": "Could the members of The Police perform lawful arrests?",
+        "answer": false,
+        "facts": "1. The members of The Police were musicians, not law enforcement officers.\n2. Only law enforcement officers can perform lawful arrests.",
+        "decomposition": [
+            "Who can perform lawful arrests?",
+            "Are members of The Police also #1?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Arrest-2"
+                    ]
+                ],
+                [
+                    [
+                        "Citizen's arrest-2",
+                        "The Police-1"
+                    ],
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Arrest-7",
+                        "Law enforcement officer-13"
+                    ]
+                ],
+                [
+                    [
+                        "Law enforcement officer-13",
+                        "The Police-8"
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        "Lawful interception-28"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ],
+        "result": "Final Answer:false",
+        "extract_result": "false"
+    },
+    {
+        "qid": "41450dbd623437269f8f",
+        "term": "Depression (mood)",
+        "description": "state of low mood and fatigue",
+        "question": "Would a Monoamine Oxidase candy bar cheer up a depressed friend?",
+        "answer": false,
+        "facts": "1. Depression is caused by low levels of serotonin, dopamine and norepinephrine.\n2. Monoamine Oxidase breaks down neurotransmitters and lowers levels of serotonin, dopamine and norepinephrine.",
+        "decomposition": [
+            "Depression is caused by low levels of what chemicals?",
+            "Monoamine Oxidase has an effect on what chemicals?",
+            "Of the chemicals listed in both #1 and #2, does Monoamine Oxidase raise their levels?"
+        ],
+        "evidence": [
+            [
+                [
+                    [
+                        "Monoamine oxidase-8"
+                    ]
+                ],
+                [
+                    [
+                        "Monoamine oxidase-1"
+                    ],
+                    "no_evidence"
+                ],
+                [
+                    "no_evidence",
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Depression (mood)-13"
+                    ]
+                ],
+                [
+                    [
+                        "Monoamine oxidase-8"
+                    ]
+                ],
+                [
+                    [
+                        "Serotonin-36"
+                    ],
+                    "operation"
+                ]
+            ],
+            [
+                [
+                    [
+                        "Biology of depression-1"
+                    ]
+                ],
+                [
+                    [
+                        "Monoamine oxidase-7"
+                    ]
+                ],
+                [
+                    "operation"
+                ]
+            ]
+        ],
+        "result": "Final Answer:false",
+        "extract_result": "false"
+    }
+]
