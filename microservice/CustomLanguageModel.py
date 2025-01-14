@@ -4,9 +4,9 @@ import requests
 from langchain_openai import ChatOpenAI
 
 LLM_MODEL_NAME_DICT = {
-    "Qwen": "Qwen/Qwen1.5-32B-Chat",
-    "Xiaobei": "Qwen/Qwen1.5-32B-Chat",
-    "Qwen2": "Qwen/Qwen2-72B-Instruct",
+    "Qwen": "Qwen/Qwen2.5-32B-Instruct",
+    "Xiaobei": "Qwen/Qwen2.5-32B-Instruct",
+    "Qwen2": "Qwen/Qwen2.5-72B-Instruct",
     "Aliyun": "qwen-turbo", 
 }
 
